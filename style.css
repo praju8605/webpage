@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet');
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;  
+}
+.navbar{
+ height: 80px;
+ background-color: #000000;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0px 50px 0px 100px;
+ margin: 0 5px;
+}
+.navbar #name{
+  font-size: 30px;
+  font-family: 'Rocher';
+}
+.navbar ul{
+  padding: 10;
+  margin-left: 150px;
+  display: inline;
+}
+.navbar ul li{
+ display: inline;
+ padding: 8px;
+}
+ a{
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+  
+}
+.name{
+  font-size: 30px;
+  font-family: 'Rocher';
+  margin-top: 300px;
+  margin-left: 200px;
+}
+.work{
+  margin-left:200px ;
+  font-size: 18px;
+  color: indigo;
+  padding: 20px;
+}
+
+.btn{
+  background: black;
+  display: inline-block;
+  color: aliceblue;
+  margin-left: 400px; 
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 34px;
+}
+img{
+  border-radius: 10%;
+  margin-top: -300px;
+  margin-left: 500px;
+  margin-bottom: -60px;
+  border: 2px;
+  border: black;
+}
+/*@media screen and (max-width: 500px) {
+    ul.width li:not(:nth-child(0)) {
+      display: none;
+    }
+  }
